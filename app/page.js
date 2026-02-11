@@ -35,7 +35,7 @@ function HeaderNav({ onLoginClick }) {
         </div>
         <button 
           onClick={onLoginClick}
-          className="text-sm border border-gray-200 px-3 py-1 rounded-md text-gray-800 hover:bg-gray-100 transition"
+          className="text-sm border bg-blue-500 border-gray-200 px-3 py-1 rounded-md text-gray-800 hover:bg-green-500 transition"
         >
           Login
         </button>
@@ -54,7 +54,7 @@ function HeroSection({ onGetStartedClick }) {
       <div className="mt-8">
         <button 
           onClick={onGetStartedClick}
-          className="bg-black text-white px-6 py-3 rounded-md font-medium hover:opacity-95 transition"
+          className="bg-black hover:bg-orange-500  text-white px-6 py-3 rounded-md font-medium hover:opacity-95 transition animate-bounce"
         >
           Get Started
         </button>

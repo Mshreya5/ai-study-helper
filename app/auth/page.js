@@ -67,13 +67,13 @@ function AuthForm({
   onSignupClick,
 }) {
   return (
-    <form className="flex flex-col gap-4" onSubmit={(e) => e.preventDefault()}>
+    <form className="flex flex-col gap-4 border-red-300" onSubmit={(e) => e.preventDefault()}>
       <input
         type="email"
         placeholder="Email"
         value={email}
         onChange={(e) => onEmailChange(e.target.value)}
-        className="w-full px-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="text-black w-full px-3 py-3 border border-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         disabled={isLoading}
         required
       />
@@ -83,7 +83,7 @@ function AuthForm({
         placeholder="Password"
         value={password}
         onChange={(e) => onPasswordChange(e.target.value)}
-        className="w-full px-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className=" text-black w-full px-3 py-3 border border-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         disabled={isLoading}
         required
       />
@@ -99,7 +99,7 @@ function AuthForm({
           type="button"
           onClick={onLoginClick}
           disabled={isLoading}
-          className="flex-1 bg-blue-600 text-white py-3 rounded-lg font-medium hover:bg-blue-700 transition disabled:opacity-50 disabled:cursor-not-allowed"
+          className="flex-1 bg-blue-600 text-white py-3 rounded-lg font-medium hover:bg-blue-700 transition disabled:opacity-50 disabled:cursor-not-allowed animate-pulse"
         >
           {isLoading ? 'Processing...' : 'Login'}
         </button>
@@ -107,7 +107,7 @@ function AuthForm({
           type="button"
           onClick={onSignupClick}
           disabled={isLoading}
-          className="flex-1 border border-gray-300 text-gray-800 py-3 rounded-lg font-medium bg-white hover:bg-gray-100 transition disabled:opacity-50 disabled:cursor-not-allowed"
+          className="flex-1 border border-orange-300 text-gray-800 py-3 rounded-lg font-medium bg-white hover:bg-orange-500 transition disabled:opacity-50 disabled:cursor-not-allowed animate-pulse"
         >
           {isLoading ? 'Processing...' : 'Sign Up'}
         </button>
