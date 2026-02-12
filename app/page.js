@@ -195,4 +195,5 @@ function FeaturesGrid({ features }) {
   );
 }
 
-//animation refinement - Kiran
+//animation refinement - Kiranshree
+//minor formatting update
