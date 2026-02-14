@@ -9,7 +9,7 @@ An intelligent learning platform that transforms study notes into summaries, qui
 
 ---
 
-## 🎯 Product Overview
+## Product Overview
 
 **AI Study Helper** is a SaaS application designed to help students learn more effectively by leveraging artificial intelligence. Instead of passively reading notes, users can instantly generate:
 
@@ -23,13 +23,13 @@ Students spend hours reviewing notes or creating flashcards manually. AI Study H
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
-**[Deploy on Vercel](#deployment)** | **[GitHub Repository](https://github.com/Mshreya5/ai-study-helper)**
+**[Deploy on Vercel](ai-study-helper-ten.vercel.app)** | **[GitHub Repository](https://github.com/Mshreya5/ai-study-helper)**
 
 ---
 
-## 🏗️ Technology Stack
+##  Technology Stack
 
 ### Frontend
 - **Next.js 16** (App Router)
@@ -52,7 +52,7 @@ Students spend hours reviewing notes or creating flashcards manually. AI Study H
 
 ---
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Node.js 18+ 
@@ -101,7 +101,7 @@ npm start
 
 ---
 
-## 🎨 Features & Workflows
+##  Features & Workflows
 
 ### Authentication Flow
 1. **Signup/Login** via Firebase Authentication
@@ -110,22 +110,22 @@ npm start
 
 ### Core AI Features
 
-#### 1️⃣ Summarize
+#### 1. Summarize
 - Extracts key concepts from long study notes
 - Returns concise, structured summaries
 - Best for: Long textbooks, lectures, articles
 
-#### 2️⃣ Generate Questions
+#### 2. Generate Questions
 - Creates 5 short quiz questions with answers
 - Tests understanding of content
 - Best for: Self-assessment, exam prep
 
-#### 3️⃣ Explain Simply
+#### 3. Explain Simply
 - Rephrases complex topics for beginners
 - Includes helpful examples
 - Best for: Difficult concepts, learning new subjects
 
-#### 4️⃣ Study Suggestions
+#### 4. Study Suggestions
 - Provides 5 actionable tips per topic
 - Tailored learning strategies
 - Best for: Overcoming learning challenges
@@ -137,7 +137,7 @@ npm start
 
 ---
 
-## 📊 Project Structure
+##  Project Structure
 
 ```
 ai-study-helper/
@@ -163,7 +163,7 @@ ai-study-helper/
 
 ---
 
-## 🔐 Authentication & Security
+##  Authentication & Security
 
 - **Firebase Auth SDK** - Industry-standard authentication
 - **Server-side validation** - API routes verify user tokens
@@ -172,7 +172,7 @@ ai-study-helper/
 
 ---
 
-## 🤖 AI Integration Details
+##  AI Integration Details
 
 **See [AI_WORKFLOW.md](./AI_WORKFLOW.md) for in-depth explanation of:**
 - Gemini API integration patterns
@@ -182,7 +182,7 @@ ai-study-helper/
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ### Deploy on Vercel (Recommended)
 
@@ -203,7 +203,7 @@ firebase deploy
 
 ---
 
-## 📋 API Endpoints
+##  API Endpoints
 
 ### Generate Content
 ```http
@@ -232,7 +232,7 @@ Response: { "suggestions": "5 actionable tips..." }
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Run tests (if available):
 ```bash
@@ -241,7 +241,7 @@ npm test
 
 ---
 
-## 📈 Performance & Optimization
+##  Performance & Optimization
 
 - **Server-side Gemini calls** - Keeps API keys secure
 - **Zustand state management** - Lightweight & efficient
@@ -251,7 +251,7 @@ npm test
 
 ---
 
-## 🛠️ Development Workflow
+##  Development Workflow
 
 1. Create feature branch: `git checkout -b feature/your-feature`
 2. Make changes & test locally
@@ -261,7 +261,7 @@ npm test
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Firebase Connection Issues
 - Verify `.env.local` has correct credentials
@@ -280,7 +280,7 @@ npm test
 
 ---
 
-## 📚 Architecture & Design
+##  Architecture & Design
 
 **[See ARCHITECTURE.md](./ARCHITECTURE.md)** for:
 - System diagram
@@ -290,7 +290,7 @@ npm test
 
 ---
 
-## 🎯 Product Brief
+##  Product Brief
 
 **[See PRODUCT_BRIEF.md](./PRODUCT_BRIEF.md)** for:
 - Problem statement
@@ -301,7 +301,7 @@ npm test
 
 ---
 
-## 📝 Future Enhancements
+##  Future Enhancements
 
 - [ ] OAuth login (Google, GitHub)
 - [ ] Export notes as PDF
@@ -313,24 +313,20 @@ npm test
 
 ---
 
-## 📄 License
+##  License
 
 MIT License - See LICENSE file for details
 
 ---
 
-## 👤 Author
-
-**Shreya** - Full-stack developer  
+##  Author
+ 
 GitHub: [@Mshreya5](https://github.com/Mshreya5)
 
 ---
 
-## 💬 Support
+## Support
 
 - **Issues**: [GitHub Issues](https://github.com/Mshreya5/ai-study-helper/issues)
-- **Email**: Contact via GitHub profile
 
 ---
-
-**Built with ❤️ using Next.js, Firebase & Gemini AI**
